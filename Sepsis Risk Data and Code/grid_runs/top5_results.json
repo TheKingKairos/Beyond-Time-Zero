@@ -1,0 +1,112 @@
+[
+  {
+    "trial": 101,
+    "timestamp": "2025-11-10T05:11:15.005029Z",
+    "val_loss": 0.24037240694551457,
+    "val_acc": 0.9011357094258649,
+    "val_auroc": 0.9645099235573668,
+    "config": {
+      "layers": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.0,
+      "batchnorm": true,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "batch_size": 9192,
+      "epochs": 30,
+      "patience": 4,
+      "amp": true
+    }
+  },
+  {
+    "trial": 102,
+    "timestamp": "2025-11-10T05:11:57.463138Z",
+    "val_loss": 0.25136475178927375,
+    "val_acc": 0.8989375621499974,
+    "val_auroc": 0.9608324747095519,
+    "config": {
+      "layers": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.0,
+      "batchnorm": true,
+      "lr": 0.001,
+      "weight_decay": 1e-05,
+      "batch_size": 9192,
+      "epochs": 30,
+      "patience": 4,
+      "amp": true
+    }
+  },
+  {
+    "trial": 110,
+    "timestamp": "2025-11-10T05:16:59.055832Z",
+    "val_loss": 0.2601952149394843,
+    "val_acc": 0.8899879625268227,
+    "val_auroc": 0.9590556687417945,
+    "config": {
+      "layers": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.2,
+      "batchnorm": true,
+      "lr": 0.001,
+      "weight_decay": 1e-05,
+      "batch_size": 9192,
+      "epochs": 30,
+      "patience": 4,
+      "amp": true
+    }
+  },
+  {
+    "trial": 118,
+    "timestamp": "2025-11-10T05:21:43.606335Z",
+    "val_loss": 0.2939850517888892,
+    "val_acc": 0.8770607630711258,
+    "val_auroc": 0.9480112826507653,
+    "config": {
+      "layers": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.5,
+      "batchnorm": true,
+      "lr": 0.001,
+      "weight_decay": 1e-05,
+      "batch_size": 9192,
+      "epochs": 30,
+      "patience": 4,
+      "amp": true
+    }
+  },
+  {
+    "trial": 117,
+    "timestamp": "2025-11-10T05:21:00.882380Z",
+    "val_loss": 0.30684818391299057,
+    "val_acc": 0.8634531846967081,
+    "val_auroc": 0.9420582113495723,
+    "config": {
+      "layers": [
+        128,
+        64
+      ],
+      "activation": "relu",
+      "dropout": 0.5,
+      "batchnorm": true,
+      "lr": 0.001,
+      "weight_decay": 0.0001,
+      "batch_size": 9192,
+      "epochs": 30,
+      "patience": 4,
+      "amp": true
+    }
+  }
+]

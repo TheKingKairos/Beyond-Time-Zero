@@ -1,0 +1,104 @@
+{
+  "best_params": {
+    "max_depth": 4,
+    "learning_rate": 0.1,
+    "subsample": 0.7,
+    "colsample_bytree": 0.9,
+    "min_child_weight": 5,
+    "reg_lambda": 3.0,
+    "n_estimators": 400
+  },
+  "cv_mean_ap": 0.17996208789307774,
+  "cv_fold_scores": [
+    {
+      "ap": 0.17536671895001857,
+      "auc": 0.8107083140410221
+    },
+    {
+      "ap": 0.1651930548072669,
+      "auc": 0.806143347325829
+    },
+    {
+      "ap": 0.19932648992194768,
+      "auc": 0.818754383646047
+    }
+  ],
+  "row_metrics": {
+    "train_ap": 0.27440343276327067,
+    "test_ap": 0.1758318090540772,
+    "train_auc": 0.8979886834223214,
+    "test_auc": 0.8143056352407261
+  },
+  "cindex": {
+    "train_cindex": 0.1671488282968239,
+    "test_cindex": 0.20605796866777315,
+    "n_train_for_cindex": 3153,
+    "n_test_for_cindex": 789,
+    "K_hours": 10.0
+  },
+  "features": {
+    "order": [
+      "t_bin",
+      "hours_since_intime",
+      "temperature",
+      "heartrate",
+      "resprate",
+      "o2sat",
+      "sbp",
+      "dbp",
+      "pain",
+      "rhythm_flag",
+      "is_white",
+      "is_black",
+      "is_asian",
+      "is_hispanic",
+      "is_other_race",
+      "gender_F",
+      "gender_M",
+      "arrival_transport_AMBULANCE",
+      "arrival_transport_HELICOPTER",
+      "arrival_transport_OTHER",
+      "arrival_transport_UNKNOWN",
+      "arrival_transport_WALK IN",
+      "lactate",
+      "wbc",
+      "time_since_adm",
+      "gsn_16599.0",
+      "gsn_43952.0",
+      "gsn_4490.0",
+      "gsn_66419.0",
+      "gsn_61716.0"
+    ],
+    "base_features": [
+      "hours_since_intime",
+      "temperature",
+      "heartrate",
+      "resprate",
+      "o2sat",
+      "sbp",
+      "dbp",
+      "pain",
+      "rhythm_flag",
+      "is_white",
+      "is_black",
+      "is_asian",
+      "is_hispanic",
+      "is_other_race",
+      "gender_F",
+      "gender_M",
+      "arrival_transport_AMBULANCE",
+      "arrival_transport_HELICOPTER",
+      "arrival_transport_OTHER",
+      "arrival_transport_UNKNOWN",
+      "arrival_transport_WALK IN",
+      "lactate",
+      "wbc",
+      "time_since_adm",
+      "gsn_16599.0",
+      "gsn_43952.0",
+      "gsn_4490.0",
+      "gsn_66419.0",
+      "gsn_61716.0"
+    ]
+  }
+}

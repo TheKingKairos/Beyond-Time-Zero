@@ -1,0 +1,102 @@
+[
+  {
+    "trial": 682,
+    "val_loss": 0.15328064560890198,
+    "val_acc": 0.9312817292091904,
+    "val_auroc": 0.9844025222441192,
+    "config": {
+      "max_depth": 8,
+      "learning_rate": 0.1,
+      "n_estimators": 400,
+      "subsample": 1.0,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 2.0,
+      "reg_alpha": 0.0,
+      "min_child_weight": 1.0,
+      "gamma": 1.0,
+      "max_bin": 256,
+      "scale_pos_weight": 1.0,
+      "early_stopping_rounds": 50
+    }
+  },
+  {
+    "trial": 746,
+    "val_loss": 0.15328064560890198,
+    "val_acc": 0.9312817292091904,
+    "val_auroc": 0.9844025222441192,
+    "config": {
+      "max_depth": 8,
+      "learning_rate": 0.1,
+      "n_estimators": 800,
+      "subsample": 1.0,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 2.0,
+      "reg_alpha": 0.0,
+      "min_child_weight": 1.0,
+      "gamma": 1.0,
+      "max_bin": 256,
+      "scale_pos_weight": 1.0,
+      "early_stopping_rounds": 50
+    }
+  },
+  {
+    "trial": 522,
+    "val_loss": 0.15381814539432526,
+    "val_acc": 0.930392002930863,
+    "val_auroc": 0.9841015828744479,
+    "config": {
+      "max_depth": 8,
+      "learning_rate": 0.03,
+      "n_estimators": 400,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 2.0,
+      "reg_alpha": 0.0,
+      "min_child_weight": 1.0,
+      "gamma": 1.0,
+      "max_bin": 256,
+      "scale_pos_weight": 1.0,
+      "early_stopping_rounds": 50
+    }
+  },
+  {
+    "trial": 586,
+    "val_loss": 0.15381814539432526,
+    "val_acc": 0.930392002930863,
+    "val_auroc": 0.9841015828744479,
+    "config": {
+      "max_depth": 8,
+      "learning_rate": 0.03,
+      "n_estimators": 800,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 2.0,
+      "reg_alpha": 0.0,
+      "min_child_weight": 1.0,
+      "gamma": 1.0,
+      "max_bin": 256,
+      "scale_pos_weight": 1.0,
+      "early_stopping_rounds": 50
+    }
+  },
+  {
+    "trial": 521,
+    "val_loss": 0.15398885309696198,
+    "val_acc": 0.9295546134924373,
+    "val_auroc": 0.9839981425011155,
+    "config": {
+      "max_depth": 8,
+      "learning_rate": 0.03,
+      "n_estimators": 400,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 2.0,
+      "reg_alpha": 0.0,
+      "min_child_weight": 1.0,
+      "gamma": 0.0,
+      "max_bin": 256,
+      "scale_pos_weight": 1.0,
+      "early_stopping_rounds": 50
+    }
+  }
+]

@@ -1,0 +1,31 @@
+{
+  "base_features": [
+    "temperature",
+    "heartrate",
+    "resprate",
+    "o2sat",
+    "sbp",
+    "dbp",
+    "pain",
+    "rhythm_flag",
+    "is_white",
+    "is_black",
+    "is_asian",
+    "is_hispanic",
+    "is_other_race",
+    "lactate",
+    "wbc",
+    "time_since_adm",
+    "gsn_16599.0",
+    "gsn_43952.0",
+    "gsn_4490.0",
+    "gsn_66419.0",
+    "gsn_61716.0"
+  ],
+  "time_columns": [
+    "tb_1",
+    "tb_2"
+  ],
+  "n_bins": 3,
+  "bin_minutes": 30.0
+}

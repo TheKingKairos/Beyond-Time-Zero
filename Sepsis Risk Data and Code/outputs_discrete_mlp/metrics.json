@@ -1,0 +1,27 @@
+{
+  "train_ap": 0.03932149422163894,
+  "test_ap": 0.1565079946373117,
+  "train_auc": 0.5030513943317284,
+  "test_auc": 0.8090364452487365,
+  "n_train_pos": 10974,
+  "n_train_neg": 273563,
+  "n_test_pos": 2981,
+  "n_test_neg": 89506,
+  "hidden_sizes": [
+    256,
+    128
+  ],
+  "dropout": 0.15,
+  "weight_decay": 1e-05,
+  "lr": 0.002,
+  "batch_size": 32768,
+  "epochs": 100,
+  "patience": 10,
+  "use_amp": true,
+  "train_cindex": 0.19156898370341874,
+  "test_cindex": 0.20100797473991014,
+  "n_train_for_cindex": 2837,
+  "n_test_for_cindex": 789,
+  "cindex_horizon_hours": 5,
+  "bin_minutes": 30.0
+}
