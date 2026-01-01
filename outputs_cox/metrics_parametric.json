@@ -1,0 +1,38 @@
+{
+  "aft_weibull": {
+    "train_cindex": 0.2691235535918005,
+    "test_cindex": 0.28307937938439115,
+    "n_train": 3200,
+    "n_test": 800,
+    "n_train_groups": 3200,
+    "n_test_groups": 800,
+    "n_features": 21,
+    "log_likelihood": -3031.257855431346,
+    "AIC": 6108.515710862692,
+    "BIC": 6078.657523040268
+  },
+  "aft_lognormal": {
+    "train_cindex": 0.25848197309092225,
+    "test_cindex": 0.26899369704656845,
+    "n_train": 3200,
+    "n_test": 800,
+    "n_train_groups": 3200,
+    "n_test_groups": 800,
+    "n_features": 21,
+    "log_likelihood": -2994.891279345274,
+    "AIC": 6035.782558690548,
+    "BIC": 6005.924370868124
+  },
+  "aft_loglogistic": {
+    "train_cindex": 0.2530947250239936,
+    "test_cindex": 0.26157256741044854,
+    "n_train": 3200,
+    "n_test": 800,
+    "n_train_groups": 3200,
+    "n_test_groups": 800,
+    "n_features": 21,
+    "log_likelihood": -2976.3496985732204,
+    "AIC": 5998.699397146441,
+    "BIC": 5968.841209324017
+  }
+}

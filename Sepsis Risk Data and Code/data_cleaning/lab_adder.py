@@ -44,7 +44,7 @@ from typing import Optional, Dict, List
 # ------------------------------
 LOOKBACK_VITALS_HOURS = 6
 LOOKBACK_LABS_HOURS   = 12
-KEEP_ALL_LABS         = False  # set True to append all numeric lab columns to event_level
+KEEP_ALL_LABS         = True # set True to append all numeric lab columns to event_level
 
 # Column name hints (lowercased, punctuation-insensitive matching)
 VITAL_CANDIDATES = {
@@ -337,7 +337,7 @@ def main(args):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description="Merge lab data and recompute time-varying sepsis label.")
-    p.add_argument("--labs_path",  required=True, help="Path to wide labs CSV (with storetime).")
+    p.add_argument("data/MIMIC-ED/labevents.csv",  required=True, help="Path to wide labs CSV (with storetime).")
     p.add_argument("--event_path", required=True, help="Path to existing event_level.csv.")
     p.add_argument("--stay_path",  required=True, help="Path to existing stay_level.csv.")
     p.add_argument("--out_event_path", default=None, help="Output path for updated event_level.csv (default: overwrite input).")
@@ -350,3 +350,4 @@ if __name__ == "__main__":
         args.out_stay_path = args.stay_path
 
     main(args)
+
