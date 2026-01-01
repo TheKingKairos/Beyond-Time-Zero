@@ -337,7 +337,7 @@ def main(args):
 
 if __name__ == "__main__":
     p = argparse.ArgumentParser(description="Merge lab data and recompute time-varying sepsis label.")
-    p.add_argument("data/MIMIC-ED/labevents.csv",  required=True, help="Path to wide labs CSV (with storetime).")
+    p.add_argument("--labs_path",  required=True, help="Path to wide labs CSV (with storetime).")
     p.add_argument("--event_path", required=True, help="Path to existing event_level.csv.")
     p.add_argument("--stay_path",  required=True, help="Path to existing stay_level.csv.")
     p.add_argument("--out_event_path", default=None, help="Output path for updated event_level.csv (default: overwrite input).")
